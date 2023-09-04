@@ -1,1 +1,38 @@
 /* Write your CSS code here */
+.nav-header {
+  display: flex;
+  justify-content: center;
+}
+.nav-container {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1110px;
+}
+.menu-container {
+  list-style-type: none;
+  display: flex;
+  margin-right: 20px;
+}
+.menu-button-container {
+  display: flex;
+  align-items: center;
+}
+.website-logo {
+  width: 150px;
+}
+.each-menu {
+  font-family: 'Roboto';
+  color: #475569;
+  margin-right: 10px;
+}
+.logout-button {
+  background-color: #0967d2;
+  color: #ffffff;
+  border: 0px;
+  border-radius: 5px;
+  height: 30px;
+  width: 80px;
+}
